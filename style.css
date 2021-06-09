@@ -1,0 +1,70 @@
+/*geral*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  color: #404040;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: #fbec5d;
+}
+div {
+  text-align: center;
+  width: 35%;
+  background-color: #ffd84b;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10vh;
+  padding-bottom: 4vh;
+  padding-top: 2vh;
+  border-radius: 1vw;
+}
+
+/*form*/
+
+#loginin{
+  margin-left: 46%;
+  position: absolute; 
+  margin-top: -8vh;
+}
+
+#logoff{
+  margin-left: 43%;
+  position: absolute; 
+  margin-top: -8vh;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+h1{
+  margin-bottom: 3vh;
+}
+
+input {
+  margin-left:auto;
+  margin-right:auto;
+  width: 40%;
+  align-items: center;
+  margin-bottom: 0.2vh;
+  border-radius: 0.8vh;
+}
+
+#enviar {
+  margin-top: 0.3vh;
+  width: 15%;
+  background-color: #fbec5d;
+  box-shadow: 1px 1px 3px #a3a21b;
+  border: none;
+}
+
+#enviar:hover {
+  background-color: #e2d55c;
+  transition:0.2s;
+}
